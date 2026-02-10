@@ -1,0 +1,12 @@
+.bg-secondary {
+    background-color: rgba(30, 41, 59, 0.3);
+}
+
+.projects-grid {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+    padding: 0 var(--spacing-lg);
+}
