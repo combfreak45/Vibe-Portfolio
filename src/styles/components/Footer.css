@@ -46,18 +46,18 @@
     justify-content: center;
     padding: 8px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: var(--color-icon-bg-subtle);
 }
 
 .footer-socials a:hover {
     color: var(--color-accent);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--color-icon-bg);
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: var(--spacing-lg);
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--color-border-subtle);
     font-size: 0.875rem;
     color: var(--color-text-secondary);
 }

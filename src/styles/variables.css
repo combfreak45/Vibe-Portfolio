@@ -22,4 +22,36 @@
     /* Layout */
     --container-width: 1200px;
     --header-height: 80px;
+
+    /* Component Colors */
+    --color-navbar-bg: rgba(15, 23, 42, 0.9);
+    --color-hero-gradient-1: rgba(56, 189, 248, 0.1);
+    --color-hero-gradient-2: rgba(139, 92, 246, 0.1);
+    --color-card-overlay: rgba(15, 23, 42, 0.8);
+    --color-icon-bg: rgba(255, 255, 255, 0.1);
+    --color-icon-bg-subtle: rgba(255, 255, 255, 0.05);
+    --color-border-subtle: rgba(255, 255, 255, 0.05);
+    --color-tag-bg: rgba(56, 189, 248, 0.1);
+    --color-projects-bg: rgba(30, 41, 59, 0.3);
+}
+
+[data-theme="light"] {
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: #f1f5f9;
+    --color-text-primary: #0f172a;
+    --color-text-secondary: #475569;
+    --color-accent: #0ea5e9;
+    --color-accent-hover: #0284c7;
+    --color-border: #e2e8f0;
+
+    /* Component Colors Light Mode */
+    --color-navbar-bg: rgba(255, 255, 255, 0.9);
+    --color-hero-gradient-1: rgba(14, 165, 233, 0.1);
+    --color-hero-gradient-2: rgba(124, 58, 237, 0.1);
+    --color-card-overlay: rgba(255, 255, 255, 0.8);
+    --color-icon-bg: rgba(0, 0, 0, 0.05);
+    --color-icon-bg-subtle: rgba(0, 0, 0, 0.02);
+    --color-border-subtle: rgba(0, 0, 0, 0.05);
+    --color-tag-bg: rgba(14, 165, 233, 0.1);
+    --color-projects-bg: rgba(241, 245, 249, 0.5);
 }

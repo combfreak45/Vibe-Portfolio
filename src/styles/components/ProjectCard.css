@@ -34,7 +34,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(15, 23, 42, 0.8);
+    background-color: var(--color-card-overlay);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,7 @@
 
 .project-links a {
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--color-icon-bg);
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -93,7 +93,7 @@
 
 .tech-tag {
     font-size: 0.75rem;
-    background-color: rgba(56, 189, 248, 0.1);
+    background-color: var(--color-tag-bg);
     color: var(--color-accent);
     padding: 4px 8px;
     border-radius: 4px;

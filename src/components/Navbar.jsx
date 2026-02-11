@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Menu, X, Code } from 'lucide-react';
 import '../styles/components/Navbar.css';
 
+import ThemeToggle from './ThemeToggle';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -26,6 +28,9 @@ const Navbar = () => {
                     <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
                     <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
                     <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+                    <li style={{ display: 'flex', alignItems: 'center' }}>
+                        <ThemeToggle />
+                    </li>
                 </ul>
             </div>
         </nav>

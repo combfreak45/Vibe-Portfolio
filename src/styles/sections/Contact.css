@@ -23,7 +23,7 @@
     width: 50px;
     height: 50px;
     border-radius: 12px;
-    background-color: rgba(56, 189, 248, 0.1);
+    background-color: var(--color-tag-bg);
     color: var(--color-accent);
     display: flex;
     align-items: center;

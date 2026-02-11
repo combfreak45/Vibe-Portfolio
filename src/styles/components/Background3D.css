@@ -1,0 +1,30 @@
+.background-3d {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    /* pointer-events: none; removed to allow interaction */
+}
+
+/* Ensure sections that use this have relative positioning */
+.section-with-3d {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ensure content sits above the canvas but doesn't block it entirely if transparent */
+.hero-content {
+    position: relative;
+    z-index: 10;
+    pointer-events: none;
+    /* Let clicks pass through container */
+}
+
+.hero-content>* {
+    pointer-events: auto;
+    /* Re-enable clicks for text/buttons */
+    /* This allows clicking "through" the empty space around text to the 3D canvas */
+}
