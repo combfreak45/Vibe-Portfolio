@@ -20,8 +20,10 @@ We built this portfolio with a focus on **speed**, **flexibility**, and **modern
 ### 3. The Flow (Component by Component)
 We built from the outside in:
 1.  **Core UI**: `Navbar` and `Footer` to frame the page.
-2.  **Hero Section**: Big, bold text to grab attention immediately.
-3.  **Content Sections**: `About`, `Projects`, and `Contact` were modularized for easy editing.
+- **Hero Section**: An eye-catching introduction with a call-to-action.
+- **About Section**: A bio area with a skills grid layout.
+- **Experience Section**: A timeline/card view of your professional history.
+- **Projects Section**: A dynamic grid displaying project cards with hover effects. modularized for easy editing.
 4.  **Data**: Extracted project data into `src/data` so you can update your portfolio without touching the React code.
 
 ### 4. The Result
